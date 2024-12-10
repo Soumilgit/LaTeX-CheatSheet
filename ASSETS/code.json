@@ -209,24 +209,8 @@
     ]
   },
   {
-    "heading": "MISCELLANEOUS",
+    "heading": "MATH",
     "data": [
-      {
-        "des": "Creates a table of contents.",
-        "com": "\\tableofcontents"
-      },
-      {
-        "des": "Sets the page style to empty (no headers or footers).",
-        "com": "\\pagestyle{empty}"
-      },
-      {
-        "des": "Changes line spacing.",
-        "com": "\\linespread{x}"
-      },
-      {
-        "des": "Inserts a comment (not printed).",
-        "com": "\\begin{comment} ... \\end{comment}"
-      },
       {
         "des": "For inline math, use this syntax.",
         "com": "$...$"
@@ -246,6 +230,27 @@
       {
         "des": "Fraction notation.",
         "com": "\\frac{x}{y}"
+      }
+    ]
+  },
+  {
+    "heading": "MISCELLANEOUS",
+    "data": [
+      {
+        "des": "Creates a table of contents.",
+        "com": "\\tableofcontents"
+      },
+      {
+        "des": "Sets the page style to empty (no headers or footers).",
+        "com": "\\pagestyle{empty}"
+      },
+      {
+        "des": "Changes line spacing.",
+        "com": "\\linespread{x}"
+      },
+      {
+        "des": "Inserts a comment (not printed).",
+        "com": "\\begin{comment} ... \\end{comment}"
       }
     ]
   }
