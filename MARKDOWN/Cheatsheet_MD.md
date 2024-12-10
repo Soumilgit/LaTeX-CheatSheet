@@ -1,4 +1,5 @@
-![ClipWindowsGIF](https://github.com/user-attachments/assets/4403fd09-5357-4f6a-9876-4780820a79d5)# LaTeX CheatSheet
+![ClipWindowsGIF](https://github.com/user-attachments/assets/4403fd09-5357-4f6a-9876-4780820a79d5)
+# LaTeX CheatSheet
 
 ## DOCUMENT CLASS
 
