@@ -4,6 +4,6 @@
     REFERENCE:      LATEX DOCUMENTATION AND CHEAT SHEETS
     DESCRIPTION:    Your very own LaTeX Cheat Sheet covering basic commands and environments!
 
-**_GO ON FROM HERE, ALL THE BEST_**
+**_GO ON FROM HERE, ALL THE BEST!_**
 
 
