@@ -7,7 +7,7 @@
 
 - ### [WEBSITE](https://latex-cheatsheet.vercel.app/)
 - ### [MARKDOWN-FILE](MARKDOWN/Cheatsheet_MD.md)
-- ### [PDF-FILE](PDF/Cheatsheet_PDF.pdf)
+
 
 ---
 
