@@ -259,6 +259,9 @@ Subscript notation.
 x_{y}
 ```
 Fraction notation.
+```
+\frac{x}{y}
+```
 
 Thank you😊!
 
