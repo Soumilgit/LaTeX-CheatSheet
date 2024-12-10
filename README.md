@@ -11,8 +11,8 @@
 
 ---
 
-### To Contribute, read [CONTRIBUTING.md](CONTRIBUTING.md), Please leave a review!
+### To Contribute, read [CONTRIBUTING.md](CONTRIBUTING.md) . Please leave a review and ⭐ the repo if you found it useful!
 
-### Thank You:
+### Thank You :)
 
 
