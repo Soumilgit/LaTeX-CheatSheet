@@ -1,7 +1,6 @@
-# Git-Github CheatSheet
+# LaTeX CheatSheet
 
-## Your all-in-one Git, Github and Terminal Cheatsheet!
-
+## Your all-in-one LaTeX Cheatsheet!
 ---
 
 ### You have various ways to access and use the Cheatsheet:
