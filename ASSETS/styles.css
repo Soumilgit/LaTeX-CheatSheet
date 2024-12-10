@@ -282,17 +282,7 @@ code:hover > .copy-btn {
   font-size: 1.4rem;
 }
 
-.download-btn button {
-  border: none;
-  color: white;
-  padding: 12px 20px;
-  margin: 17.5px;
-  border-radius: 5px;
-  background: #111111;
-  box-shadow: inset 6px 6px 12px #070707, inset -6px -6px 12px #1b1b1b;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 2px;
-}
+
 
 .find-btn a {
   border: none;
