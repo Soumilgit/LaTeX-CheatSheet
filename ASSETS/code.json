@@ -1,0 +1,257 @@
+[
+  {
+    "heading": "DOCUMENT CLASS",
+    "data": [
+      {
+        "des": "Specifies the type of document (e.g., article, report, book).",
+        "com": "\\documentclass{class}"
+      },
+      {
+        "des": "Sets options like font size and paper type.",
+        "com": "\\documentclass[11pt,a4paper]{article}"
+      }
+    ]
+  },
+  {
+    "heading": "PACKAGES",
+    "data": [
+      {
+        "des": "Includes a package for full page margins.",
+        "com": "\\usepackage{fullpage}"
+      },
+      {
+        "des": "Includes a package for setting custom margins.",
+        "com": "\\usepackage{anysize}"
+      },
+      {
+        "des": "Includes a package for multiple columns.",
+        "com": "\\usepackage{multicol}"
+      },
+      {
+        "des": "Includes a package for LaTeX symbol font.",
+        "com": "\\usepackage{latexsym}"
+      },
+      {
+        "des": "Includes a package for graphics.",
+        "com": "\\usepackage{graphicx}"
+      },
+      {
+        "des": "Includes a package for URLs.",
+        "com": "\\usepackage{url}"
+      }
+    ]
+  },
+  {
+    "heading": "TITLE AND AUTHOR",
+    "data": [
+      {
+        "des": "Sets the title of the document.",
+        "com": "\\title{text}"
+      },
+      {
+        "des": "Sets the author of the document.",
+        "com": "\\author{text}"
+      },
+      {
+        "des": "Sets the date of the document.",
+        "com": "\\date{text}"
+      },
+      {
+        "des": "Generates the title section in the document.",
+        "com": "\\maketitle"
+      }
+    ]
+  },
+  {
+    "heading": "DOCUMENT STRUCTURE",
+    "data": [
+      {
+        "des": "Starts the content of the document.",
+        "com": "\\begin{document}"
+      },
+      {
+        "des": "Ends the content of the document.",
+        "com": "\\end{document}"
+      },
+      {
+        "des": "Creates a part in the document.",
+        "com": "\\part{title}"
+      },
+      {
+        "des": "Creates a chapter in the document.",
+        "com": "\\chapter{title}"
+      },
+      {
+        "des": "Creates a section in the document.",
+        "com": "\\section{title}"
+      },
+      {
+        "des": "Creates a subsection in the document.",
+        "com": "\\subsection{title}"
+      },
+      {
+        "des": "Creates a subsubsection in the document.",
+        "com": "\\subsubsection{title}"
+      },
+      {
+        "des": "Creates a paragraph in the document.",
+        "com": "\\paragraph{title}"
+      },
+      {
+        "des": "Creates a subparagraph in the document.",
+        "com": "\\subparagraph{title}"
+      }
+    ]
+  },
+  {
+    "heading": "TEXT FORMATTING",
+    "data": [
+      {
+        "des": "Makes text bold.",
+        "com": "\\textbf{text}"
+      },
+      {
+        "des": "Makes text italic.",
+        "com": "\\textit{text}"
+      },
+      {
+        "des": "Underlines text.",
+        "com": "\\underline{text}"
+      },
+      {
+        "des": "Emphasizes text.",
+        "com": "\\emph{text}"
+      },
+      {
+        "des": "Sets text in Roman family.",
+        "com": "\\textrm{text}"
+      },
+      {
+        "des": "Sets text in Sans serif family.",
+        "com": "\\textsf{text}"
+      },
+      {
+        "des": "Sets text in Typewriter family.",
+        "com": "\\texttt{text}"
+      }
+    ]
+  },
+  {
+    "heading": "LISTS",
+    "data": [
+      {
+        "des": "Creates a numbered list.",
+        "com": "\\begin{enumerate} ... \\end{enumerate}"
+      },
+      {
+        "des": "Creates a bulleted list.",
+        "com": "\\begin{itemize} ... \\end{itemize}"
+      },
+      {
+        "des": "Creates a description list.",
+        "com": "\\begin{description} ... \\end{description}"
+      }
+    ]
+  },
+  {
+    "heading": "TABLES AND FIGURES",
+    "data": [
+      {
+        "des": "Creates a table environment.",
+        "com": "\\begin{table}[placement] ... \\end{table}"
+      },
+      {
+        "des": "Creates a figure environment.",
+        "com": "\\begin{figure}[placement] ... \\end{figure}"
+      },
+      {
+        "des": "Inserts an image.",
+        "com": "\\includegraphics[width=x]{file}"
+      },
+      {
+        "des": "Adds a caption to a table or figure.",
+        "com": "\\caption{text}"
+      }
+    ]
+  },
+  {
+    "heading": "REFERENCES",
+    "data": [
+      {
+        "des": "Creates a label for referencing.",
+        "com": "\\label{marker}"
+      },
+      {
+        "des": "References a labeled item.",
+        "com": "\\ref{marker}"
+      },
+      {
+        "des": "Gives the page number of a labeled item.",
+        "com": "\\pageref{marker}"
+      },
+      {
+        "des": "Creates a footnote.",
+        "com": "\\footnote{text}"
+      }
+    ]
+  },
+  {
+    "heading": "BIBLIOGRAPHY",
+    "data": [
+      {
+        "des": "Specifies the bibliography style.",
+        "com": "\\bibliographystyle{plain}"
+      },
+      {
+        "des": "Includes the bibliography file.",
+        "com": "\\bibliography{bibfile}"
+      }
+    ]
+  },
+  {
+    "heading": "MISCELLANEOUS",
+    "data": [
+      {
+        "des": "Creates a table of contents.",
+        "com": "\\tableofcontents"
+      },
+      {
+        "des": "Sets the page style to empty (no headers or footers).",
+        "com": "\\pagestyle{empty}"
+      },
+      {
+        "des": "Changes line spacing.",
+        "com": "\\linespread{x}"
+      },
+      {
+        "des": "Inserts a comment (not printed).",
+        "com": "\\begin{comment} ... \\end{comment}"
+      }
+    ]
+  },
+  {
+    "heading": "MATH MODE",
+    "data": [
+      {
+        "des": "For inline math, use this syntax.",
+        "com": "$...$"
+      },
+      {
+        "des": "For displayed math, use this syntax.",
+        "com": "\\[...\\]"
+      },
+      {
+        "des": "Superscript notation.",
+        "com": "x^{y}"
+      },
+      {
+        "des": "Subscript notation.",
+        "com": "x_{y}"
+      },
+      {
+        "des": "Fraction notation.",
+        "com": "\\frac{x}{y}"
+      }
+    ]
+  }
+]
