@@ -31,7 +31,7 @@ Cheatsheet_MD.md
 ├─ README.md
 └─ index.html
 ```
-
+Also, I used GitHub API to fetch people's GitHub profile details from their username 😊 !
 
 # You have various ways to access and use the Cheatsheet:
 
