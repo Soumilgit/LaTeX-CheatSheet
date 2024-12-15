@@ -4,7 +4,9 @@
  <br>Additionally, to help you guys contribute to this repository , I used GitHub API to fetch people's GitHub profile details by inputting their username 😊 ! </br>
  <br>Please feel free to contribute to this repository .</br>
 </p>
+
 # Folder structure
+
 Here is the folder structure of the repository : 
 
 ```
