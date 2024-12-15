@@ -6,6 +6,7 @@
 </p>
 # Folder structure
 Here is the folder structure of the repository : 
+
 ```
 .github
 │  ├─ FUNDING.yml
@@ -33,6 +34,7 @@ Cheatsheet_MD.md
 │  └─ latexsheet.pdf
 ├─ README.md
 └─ index.html
+
 ```
 
 
