@@ -1,268 +1,136 @@
 ![ClipWindowsGIF](https://github.com/user-attachments/assets/4403fd09-5357-4f6a-9876-4780820a79d5)
-# LaTeX CheatSheet
+# **WELCOME TO THE LATEX CHEAT SHEET**
 
-## DOCUMENT CLASS
+    AUTHOR:         SOUMIL MUKHOPADHYAY  (Github: Soumilgit)
+    REFERENCE:      LATEX DOCUMENTATION AND CHEAT SHEETS
+    DESCRIPTION:    Your very own LaTeX Cheat Sheet covering basic commands and environments!
+
+**_GO ON FROM HERE, ALL THE BEST_**
+
+<br/>
+
+## DOCUMENT CLASS:
 
 Specifies the type of document (e.g., article, report, book).
 
-```
-\documentclass{class}
-```
-Sets options like font size and paper type.
+    $ \documentclass{article}
 
-```
-\documentclass[11pt,a4paper]{article}
-```
-PACKAGES
-Includes a package for full page margins.
+<br/>
 
-```
-\usepackage{fullpage}\
-```
-Includes a package for setting custom margins.
+## PACKAGES:
 
-```
-\usepackage{anysize}
-```
-Includes a package for multiple columns.
+To include a package in your document.
 
-```
-\usepackage{multicol}
-```
-Includes a package for LaTeX symbol font.
+    $ \usepackage{package_name}
 
-```
-\usepackage{latexsym}
-```
-Includes a package for graphics.
+<br/>
 
-```
-\usepackage{graphicx}
-```
-Includes a package for URLs.
+## TITLE AND AUTHOR:
 
-```
-\usepackage{url}
-```
-TITLE AND AUTHOR
-Sets the title of the document.
+To set the title and author of the document.
 
-```
-\title{text}
-```
-Sets the author of the document.
+    $ \title{Your Title}
+    $ \author{Your Name}
+    $ \date{Date}
 
-```
-\author{text}
-```
-Sets the date of the document.
+To generate the title section in the document.
 
-```
-\date{text}
-```
-Generates the title section in the document.
+    $ \maketitle
 
-```
-\maketitle
-```
+<br/>
 
-DOCUMENT STRUCTURE
+## DOCUMENT STRUCTURE:
+
 Starts the content of the document.
 
-```
-\begin{document}
-```
-Ends the content of the document.
+    $ \begin{document}
+    $ \end{document}
 
-```
-\end{document}
-```
-Creates a part in the document.
+Creates sections and subsections.
 
-```
-\part{title}
-```
-Creates a chapter in the document.
+    $ \section{Section Title}
+    $ \subsection{Subsection Title}
 
-```
-\chapter{title}
-```
-Creates a section in the document.
+<br/>
 
-```
-\section{title}
-```
-Creates a subsection in the document.
+## TEXT FORMATTING:
 
-```
-\subsection{title}
-```
-Creates a subsubsection in the document.
+To make text bold, italic, or underline.
 
-```
-\subsubsection{title}
-```
-Creates a paragraph in the document.
+    $ \textbf{Bold Text}
+    $ \textit{Italic Text}
+    $ \underline{Underlined Text}
 
-```
-\paragraph{title}
-```
-Creates a subparagraph in the document.
+<br/>
 
-```
-\subparagraph{title}
-```
-TEXT FORMATTING
-Makes text bold.
+## LISTS:
 
-```
-\textbf{text}
-```
-Makes text italic.
+To create numbered and bulleted lists.
 
-```
-\textit{text}
-```
-Underlines text.
-```
-\underline{text}
-```
-Emphasizes text.
+    $ \begin{enumerate}
+        $ \item First item
+        $ \item Second item
+      $ \end{enumerate}
 
-```
-\emph{text}
-```
-Sets text in Roman family.
+    $ \begin{itemize}
+        $ \item First bullet
+        $ \item Second bullet
+      $ \end{itemize}
 
-```
-\textrm{text}
-```
-Sets text in Sans serif family.
+<br/>
 
-```
-\textsf{text}
-```
-Sets text in Typewriter family.
+## TABLES:
 
-```
-\texttt{text}
-```
-LISTS
-Creates a numbered list.
+To create a table.
 
-```
-\begin{enumerate} ... \end{enumerate}
-```
-Creates a bulleted list.
+    $ \begin{table}
+        $ \begin{tabular}{|c|c|}
+          $ \hline
+          Column 1 & Column 2 \\
+          $ \hline
+          Data 1 & Data 2 \\
+          $ \hline
+        $ \end{tabular}
+      $ \end{table}
 
-```
-\begin{itemize} ... \end{itemize}
-```
-Creates a description list.
+<br/>
 
-```
-\begin{description} ... \end{description}
-```
-TABLES AND FIGURES
-Creates a table environment.
+## FIGURES:
 
-```
-\begin{table}[placement] ... \end{table}
-```
-Creates a figure environment.
+To include images in your document.
 
-```
-\begin{figure}[placement] ... \end{figure}
-```
-Inserts an image.
+    $ \begin{figure}
+        $ \includegraphics[width=\linewidth]{image_file}
+        $ \caption{Caption for the image}
+      $ \end{figure}
 
-```
-\includegraphics[width=x]{file}
-```
-Adds a caption to a table or figure.
+<br/>
 
-```
-\caption{text}
-```
-REFERENCES
-Creates a label for referencing.
+## REFERENCES:
 
-```
-\label{marker}
-```
-References a labeled item.
+To create a bibliography.
 
-```
-\ref{marker}
-```
-Gives the page number of a labeled item.
+    $ \bibliographystyle{plain}
+    $ \bibliography{your_bib_file}
 
-```
-\pageref{marker}
-```
-Creates a footnote.
+<br/>
 
-```
-\footnote{text}
-```
-BIBLIOGRAPHY
-Specifies the bibliography style.
+## MATH MODE:
 
-```
-\bibliographystyle{plain}
-```
-Includes the bibliography file.
+To include mathematical expressions.
 
-```
-\bibliography{bibfile}
-```
-MISCELLANEOUS
-Creates a table of contents.
+For inline math:
 
-```
-\tableofcontents
-```
-Sets the page style to empty (no headers or footers).
+    $ x^2 + y^2 = z^2 $
 
-```
-\pagestyle{empty}
-```
-Changes line spacing.
-```
-\linespread{x}
-```
-Inserts a comment (not printed).
+For displayed math:
 
-```
-\begin{comment} ... \end{comment}
-```
-MATH MODE
-For inline math, use this syntax.
+    $ \[ E = mc^2 \] $
 
-```
-$ ... $
-```
-For displayed math, use this syntax.
-
-```
-\[ ... \]
-```
+<br/>
 
 
-Superscript notation.
-
-```
-x^{y}
-```
-Subscript notation.
-
-```
-x_{y}
-```
-Fraction notation.
-```
-\frac{x}{y}
-```
+**_CONGRATULATIONS , YOU'VE DONE IT, SIT BACK AND BE PROUD OF YOURSELF_**
 
 Thank you😊!
 
