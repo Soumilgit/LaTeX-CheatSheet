@@ -6,6 +6,7 @@
     DESCRIPTION:    Your very own LaTeX Cheat Sheet covering basic commands and environments!
 
 **_GO ON FROM HERE, ALL THE BEST_**
+**_DISCLAIMER : THE CONTENTS IN THIS VARY A BIT FROM THE ACTUAL CHEATSHEET WEBSITE_**
 
 <br/>
 
