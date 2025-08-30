@@ -454,13 +454,24 @@ a:hover {
   }
 
   .contentuser {
-    margin: 1rem 1rem;
-  }
+  margin: 0rem 1rem;
+  padding: 0.7rem 2rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background: #111111;   /* darker gray instead of same green */
+  border-radius: 5px;
+  color: #ffffff;        /* ensure white text */
+  box-shadow: 5px 5px 10px #090909, -5px -5px 10px #1d1d1d;
+}
 
-  #img img {
-    width: 365px;
-    height: auto;
-  }
+#img img {
+  border-radius: 5px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 5px 5px 10px #090909, -5px -5px 10px #1d1d1d;
+}
+
 
   #searchbar3 {
     width: 60%;
